@@ -1,8 +1,8 @@
 name: CI
 on: [push, pull_request]
 
-env:
-  # TODO
+# TODO
+#env:
 
 jobs:
   build:
