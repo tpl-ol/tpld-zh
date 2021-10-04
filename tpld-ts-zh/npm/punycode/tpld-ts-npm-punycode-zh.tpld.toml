@@ -1,0 +1,28 @@
+# tpld-ts-npm-punycode-zh.tpld.toml
+tpl-spec = "0.1.0"
+
+from = "ts"
+to = "zh_CN"
+
+type = "lib:npm:punycode"
+# punycode 2.1
+# @types/punycode index.d.ts
+scope = ""
+# scope_to 拒绝翻译
+
+# 全局
+[[d]]
+scope = ""
+[d.d]
+"decode()" = "解码()"
+"encode()" = "编码()"
+"toUnicode()" = "至Unicode()"
+"toASCII()" = "至ASCII()"
+version = "版本"
+
+[[d]]
+scope = "ucs2"
+# to 拒绝翻译
+[d.d]
+"decode()" = "解码()"
+"encode()" = "编码()"

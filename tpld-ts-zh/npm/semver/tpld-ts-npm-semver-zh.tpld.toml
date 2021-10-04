@@ -1,0 +1,385 @@
+# tpld-ts-npm-semver-zh.tpld.toml
+tpl-spec = "0.1.0"
+
+from = "ts"
+to = "zh_CN"
+
+type = "lib:npm:semver"
+# semver
+# @types/semver
+scope = ""
+scope_to = "语义化版本"
+
+# 全局
+[[d]]
+scope = ""
+[d.d]
+semver = "语义化版本"
+parse = "解析"
+valid = "有效"
+clean = "清理"
+inc = "增"
+diff = "区别"
+major = "主"
+minor = "次"
+patch = "修补"
+prerelease = "预发布"
+compare = "比较"
+rcompare = "逆比较"
+compareLoose = "宽松比较"
+compareBuild = "构建比较"
+sort = "排序"
+rsort = "逆排序"
+gt = "大于"
+lt = "小于"
+eq = "等于"
+neq = "不等于"
+gte = "大于等于"
+lte = "小于等于"
+cmp = "比"
+coerce = "限制"
+satisfies = "满足"
+maxSatisfying = "最大满足"
+minSatisfying = "最小满足"
+toComparators = "至比较器"
+minVersion = "最小版本"
+validRange = "有效范围"
+outside = "外面"
+gtr = "大于范围"
+ltr = "小于范围"
+intersects = "相交"
+simplifyRange = "简化范围"
+subset = "下级"
+SemVer = "语义化版本类"
+Range = "范围"
+Comparator = "比较器"
+compareIdentifiers = "比较标识符"
+rcompareIdentifiers = "逆比较标识符"
+SEMVER_SPEC_VERSION = "语义化版本规范的版本"
+
+[[d]]
+scope = "t:"
+[d.d]
+Operator = "运算符"
+
+[[d]]
+scope = "t:ReleaseType"
+to = "发布类型"
+[d.d]
+major = "主"
+premajor = "预主"
+minor = "次"
+preminor = "预次"
+patch = "修补"
+prepatch = "预修补"
+prerelease = "预发布"
+
+[[d]]
+scope = "Options"
+to = "选项"
+[d.d]
+loose = "宽松"
+includePrerelease = "包含预发布"
+
+[[d]]
+scope = "CoerceOptions"
+to = "限制选项"
+[d.d]
+rtl = "右至左"
+
+[[d]]
+scope = "m:"
+[d.d]
+classes = "类们"
+functions = "函数们"
+internals = "内部"
+ranges = "范围们"
+
+[[d]]
+scope = "m:classes"
+[d.d]
+comparator = "比较器"
+range = "范围"
+semver = "语义化版本"
+
+[[d]]
+scope = "m:classes/comparator\n Comparator"
+to = "比较器"
+[d.d]
+"constructor()" = "构造()"
+semver = "语义化版本"
+operator = "运算符"
+value = "值"
+loose = "宽松"
+options = "选项"
+"parse()" = "解析()"
+"test()" = "测试()"
+"intersects()" = "相交()"
+
+[[d]]
+scope = "m:classes/range\n Range"
+to = "范围"
+[d.d]
+"constructor()" = "构造()"
+range = "范围"
+raw = "原始"
+loose = "宽松"
+options = "选项"
+includePrerelease = "包含预发布"
+"format()" = "格式化()"
+"inspect()" = "检查()"
+set = "集"
+"parseRange()" = "解析范围()"
+"test()" = "测试()"
+"intersects()" = "相交()"
+
+[[d]]
+scope = "m:classes/semver\n SemVer"
+to = "语义化版本类"
+[d.d]
+"constructor()" = "构造()"
+raw = "原始"
+loose = "宽松"
+options = "选项"
+"format()" = "格式化()"
+"inspect()" = "检查()"
+major = "主"
+minor = "次"
+patch = "修补"
+version = "版本"
+build = "构建"
+prerelease = "预发布"
+"compare()" = "比较()"
+"compareMain()" = "比较主()"
+"comparePre()" = "比较预()"
+"compareBuild()" = "构建比较()"
+"inc()" = "增()"
+
+[[d]]
+scope = "m:functions"
+[d.d]
+clean = "清理"
+cmp = "比"
+coerce = "限制"
+compare-build = "构建比较"
+compare-loose = "宽松比较"
+compare = "比较"
+diff = "区别"
+eq = "相等"
+gt = "大于"
+gte = "大于等于"
+inc = "增"
+lt = "小于"
+lte = "小于等于"
+major = "主"
+minor = "次"
+neq = "不等于"
+parse = "解析"
+patch = "修补"
+prerelease = "预发布"
+rcompare = "逆比较"
+rsort = "逆排序"
+satisfies = "满足"
+sort = "排序"
+valid = "有效"
+
+[[d]]
+scope = "m:functions/clean"
+[d.d]
+"clean()" = "清理()"
+
+[[d]]
+scope = "m:functions/cmp"
+[d.d]
+"cmp()" = "比()"
+
+[[d]]
+scope = "m:functions/coerce"
+[d.d]
+"coerce()" = "限制()"
+
+[[d]]
+scope = "m:functions/compare-build"
+[d.d]
+"compareBuild()" = "构建比较()"
+
+[[d]]
+scope = "m:functions/compare-loose"
+[d.d]
+"compareLoose()" = "宽松比较()"
+
+[[d]]
+scope = "m:functions/compare"
+[d.d]
+"compare()" = "比较()"
+
+[[d]]
+scope = "m:functions/diff"
+[d.d]
+"diff()" = "区别()"
+
+[[d]]
+scope = "m:functions/eq"
+[d.d]
+"eq()" = "相等()"
+
+[[d]]
+scope = "m:functions/gt"
+[d.d]
+"gt()" = "大于()"
+
+[[d]]
+scope = "m:functions/gte"
+[d.d]
+"gte()" = "大于等于()"
+
+[[d]]
+scope = "m:functions/inc"
+[d.d]
+"inc()" = "增()"
+
+[[d]]
+scope = "m:functions/lt"
+[d.d]
+"lt()" = "小于()"
+
+[[d]]
+scope = "m:functions/lte"
+[d.d]
+"lte()" = "小于等于()"
+
+[[d]]
+scope = "m:functions/major"
+[d.d]
+"major()" = "主()"
+
+[[d]]
+scope = "m:functions/minor"
+[d.d]
+"minor()" = "次()"
+
+[[d]]
+scope = "m:functions/neq"
+[d.d]
+"neq()" = "不等于()"
+
+[[d]]
+scope = "m:functions/parse"
+[d.d]
+"parse()" = "解析()"
+
+[[d]]
+scope = "m:functions/patch"
+[d.d]
+"patch()" = "修补()"
+
+[[d]]
+scope = "m:functions/prerelease"
+[d.d]
+"prerelease()" = "预发布()"
+
+[[d]]
+scope = "m:functions/rcompare"
+[d.d]
+"rcompare()" = "逆比较()"
+
+[[d]]
+scope = "m:functions/rsort"
+[d.d]
+"rsort()" = "逆排序()"
+
+[[d]]
+scope = "m:functions/satisfies"
+[d.d]
+"satisfies()" = "满足()"
+
+[[d]]
+scope = "m:functions/sort"
+[d.d]
+"sort()" = "排序()"
+
+[[d]]
+scope = "m:functions/valid"
+[d.d]
+"valid()" = "有效()"
+
+[[d]]
+scope = "m:internals"
+[d.d]
+identifiers = "标识符"
+
+[[d]]
+scope = "m:internals/identifiers"
+[d.d]
+"compareIdentifiers()" = "比较标识符()"
+"rcompareIdentifiers()" = "逆比较标识符()"
+
+[[d]]
+scope = "m:ranges"
+[d.d]
+gtr = "大于范围"
+intersects = "相交()"
+ltr = "小于范围()"
+max-satisfying = "最大满足"
+min-satisfying = "最小满足"
+min-version = "最小版本"
+outside = "外面"
+simplify = "简化"
+subset = "下级"
+to-comparators = "至比较器"
+valid = "有效"
+
+[[d]]
+scope = "m:ranges/gtr"
+[d.d]
+"gtr()" = "大于范围()"
+
+[[d]]
+scope = "m:ranges/intersects"
+[d.d]
+"intersects()" = "相交()"
+
+[[d]]
+scope = "m:ranges/ltr"
+[d.d]
+"ltr()" = "小于范围()"
+
+[[d]]
+scope = "m:ranges/max-satisfying"
+[d.d]
+"maxSatisfying()" = "最大满足()"
+
+[[d]]
+scope = "m:ranges/min-satisfying"
+[d.d]
+"minSatisfying()" = "最小满足()"
+
+[[d]]
+scope = "m:ranges/min-version"
+[d.d]
+"minVersion()" = "最小版本()"
+
+[[d]]
+scope = "m:ranges/outside"
+[d.d]
+"outside()" = "外面()"
+
+[[d]]
+scope = "m:ranges/simplify"
+[d.d]
+"simplify()" = "简化()"
+
+[[d]]
+scope = "m:ranges/subset"
+[d.d]
+"subset()" = "下级()"
+
+[[d]]
+scope = "m:ranges/to-comparators"
+[d.d]
+"toComparators()" = "至比较器()"
+
+[[d]]
+scope = "m:ranges/valid"
+[d.d]
+"validRange()" = "有效范围()"
