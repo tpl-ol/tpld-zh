@@ -9,6 +9,8 @@
 [替语言](https://github.com/fm-elpac/fm-tpl)
 中文版 (zh_CN) 第三方软件包描述文件 (tpld).
 
+提问题 (讨论) 请去 [主仓库](https://github.com/fm-elpac/fm-tpl/discussions).
+
 ## 按原语言
 
 - [TypeScript](./tpld-ts-zh)
